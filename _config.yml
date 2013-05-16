@@ -4,9 +4,9 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-title : PeedleCOde
-production_url : http://carlosbecker.com
-description: "My Blog."
+title : PeedleCode
+production_url : http://peedlecode.com
+description:
 disqus_shortname: peedlecode
 analytics: 
 gauges: 
