@@ -1,0 +1,38 @@
+#family {
+	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	float: left;
+	display: block !important;
+}
+
+#content-wrapper {
+	margin-top: 20px;
+}
+
+#contact-form {
+	margin-top: 60px;
+}
+
+#content-title {
+	margin-top: 0px;
+}
+
+#content-body {
+	margin-top: 20px;
+	text-align: left;
+}
+
+#about-body {
+	text-align: left;
+	max-width: 70%;
+	float: right;
+	margin-top: 70px;
+}
+
+@media all and (max-width: 1250px) {
+	#about-body {
+		float: left;
+		max-width: 100%;
+	}
+}

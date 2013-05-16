@@ -1,19 +1,22 @@
 ---
 layout: layout
+title: "Posts"
 ---
 
+    {% for post in site.posts %}
 <section class="content">
   <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a>
   </h1>
 
   <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
+    {{ post.date | date: "%B %e, %Y" }}
   </section>
 
-  {{ content }}
+  {{ post.content }}
   <div class="pull"></div>
   {% include twitter.html %}
   <hr>
-  {% include disqus.html %}
 </section>
+
+    {% endfor %}

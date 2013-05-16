@@ -8,3 +8,8 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+*~
+_assets/bootstrap/tests
+node_modules/
+
