@@ -5,7 +5,7 @@ auto: true
 rdiscount:
   extensions: [smart]
 title : PeedleCode
-production_url : http://peedlecode.com
+production_url : http://craigchristenson.github.com
 description:
 disqus_shortname: peedlecode
 analytics: 
@@ -13,5 +13,5 @@ gauges:
 author :
   name : Craig Christenson
   github : craigchristenson
-  twitter : peedlecode
-  email: peedlecode@gmail.com
+  twitter : 
+  email: christensoncraig@gmail.com
