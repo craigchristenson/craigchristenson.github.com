@@ -4,7 +4,7 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-title : PeedleCode
+title : Blog
 production_url : http://craigchristenson.github.com
 description:
 disqus_shortname: peedlecode
